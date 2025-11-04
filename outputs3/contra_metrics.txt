@@ -1,0 +1,18 @@
+======================================================================
+CONTRA: Sentiment-Alpha Model Results
+======================================================================
+
+Ticker: TSLA
+Period: 2018-01-01 to 2020-12-31
+Sentiment Sources: sent_trends_z, sent_event_z
+
+TRAINING SET (Adj R²):
+  Baseline:    0.117840
+  CONTRA:      0.130734
+  Improvement: 0.012894
+
+TEST SET:
+  MAE  — Baseline: 3.489087e-02  |  CONTRA: 3.510086e-02
+  RMSE — Baseline: 4.754301e-02  |  CONTRA: 4.765053e-02
+
+SENTIMENT-ALPHA (θ): 0.004525 (p=0.1092)

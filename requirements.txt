@@ -1,0 +1,10 @@
+pandas>=2.2
+numpy>=1.26
+yfinance>=0.2.40
+statsmodels>=0.14
+scikit-learn>=1.4
+pytrends>=4.9.2
+urllib3<2.0
+matplotlib>=3.8
+plotly>=5.22
+requests>=2.31

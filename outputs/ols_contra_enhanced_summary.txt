@@ -1,0 +1,26 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                ret_stk   R-squared:                       0.127
+Model:                            OLS   Adj. R-squared:                  0.123
+Method:                 Least Squares   F-statistic:                     42.49
+Date:                Sun, 02 Nov 2025   Prob (F-statistic):           8.07e-18
+Time:                        17:57:30   Log-Likelihood:                 1021.9
+No. Observations:                 523   AIC:                            -2038.
+Df Residuals:                     520   BIC:                            -2025.
+Df Model:                           2                                         
+Covariance Type:                  HC1                                         
+===================================================================================
+                      coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+ret_mkt             1.3768      0.154      8.916      0.000       1.074       1.679
+sent_enhanced_z     0.0031      0.003      1.196      0.232      -0.002       0.008
+sent_change_z      -0.9434      0.725     -1.301      0.193      -2.365       0.478
+==============================================================================
+Omnibus:                       89.163   Durbin-Watson:                   1.921
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1082.165
+Skew:                           0.260   Prob(JB):                    1.03e-235
+Kurtosis:                      10.028   Cond. No.                         423.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)

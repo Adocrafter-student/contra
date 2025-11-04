@@ -1,0 +1,20 @@
+============================================================
+MODEL COMPARISON - TESLA SENTIMENT-ALPHA ANALYSIS
+============================================================
+
+TRAINING SET PERFORMANCE (Adj R-squared):
+  Baseline (Market only):        0.118330
+  CONTRA (Basic sentiment):      0.116927
+  CONTRA Enhanced (Event boost): 0.123415
+  Improvement vs Baseline:       0.005085
+
+TEST SET PERFORMANCE:
+  MAE  — BASE: 3.501693e-02 | CONTRA: 3.501259e-02 | ENHANCED: 3.511938e-02
+  RMSE — BASE: 4.768085e-02 | CONTRA: 4.762444e-02 | ENHANCED: 4.762318e-02
+  MAE Improvement:  -0.29%
+  RMSE Improvement: 0.12%
+
+============================================================
+SENTIMENT-ALPHA COEFFICIENTS:
+============================================================
+
